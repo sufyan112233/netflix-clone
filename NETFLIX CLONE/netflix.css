@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    background-image: url(/assets/Bg/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    opacity: 0.9;
+    border-bottom: 3px solid aqua;
+    box-shadow: 0px 8px 10px aqua;
+}
+/* .............................NAVBAAAAAAR........................... */
+
+.nav{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: transparent;
+}
+
+.he1{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    color: red;
+    justify-content: flex-start;
+    width: 90%;
+    font-size: 55px;
+}
+
+.sign{
+    display:flex;
+    color: white;
+    background-color: red;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    padding: 2px;
+}
+
+/* ..........................login............................. */
+
+.logform{
+    display: block;
+    /* border: 2px solid yellow; */
+    margin-top: 190px;
+    background: transparent;
+    width: 60%;
+    margin-left: 60px;
+    /* font-size: 20px; */
+}
+
+.he2{
+    padding: 15px;
+    display: block;
+    /* border: 3px solid white; */
+    margin-left: 100px;
+    background: transparent;
+    font-size: 65px;
+    color: white;
+}
+
+.hee1{
+    /* border: 2px solid white; */
+    margin-left: 100px;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+
+.p1{
+    /* border: 2px solid white; */
+    margin-left: 100px;
+    background: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.em{
+    margin-left: 105px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px;
+    justify-content: center;
+    color: white;
+}
+
+.btn{
+    border-radius: 4px;
+    height: 45px;
+    padding: 5px;
+    background-color: red;
+    border: black;
+    color: white;
+    width: 18%;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+/* ....................NEXT PAGE................................. */
+
+.page2{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    color: white;
+    margin: auto;
+    justify-content: space-evenly;
+    /* border-bottom: 3px solid aqua; */
+    box-shadow:  4px 1px rgb(255, 0, 0);
+}
+
+.ph1{
+    padding: 24px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    /* display: block; */
+    /* border: 2px solid white; */
+}
+
+.mobile{
+    margin: 8px;
+    padding: 40px;
+    height: 140px;
+    width:17%;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(174, 0, 255), rgb(14, 10, 10));
+    /* border: 2px solid white; */
+}
+
+
+#mh1{
+    background: transparent;
+}
+
+
+.basic{
+    margin: 8px;
+    padding: 40px;
+    height: 140px;
+    width:17%;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(64, 27, 82), rgb(100, 42, 42));
+    /* border: 2px solid white; */
+    /* display: block;
+    border: 2px solid white; */
+}
+
+.standard{
+    margin: 8px;
+    padding: 40px;
+    height: 140px;
+    width:17%;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(0, 174, 255), rgb(14, 10, 10));
+    /* border: 2px solid white; */
+    /* border: 2px solid white; */
+}
+
+.premium{
+    margin: 8px;
+    padding: 40px;
+    height: 140px;
+    width: 17%;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(43, 255, 0), rgb(14, 10, 10));
+    /* border: 2px solid white; */
+    /* border: 2px solid white; */
+}
+
+
+/* ................................................. */
+
+.opt{
+    height: 15vh;
+    color: white;
+    margin: 20px 20px;
+    /* border: 3px solid white; */
+    
+}
+
+#sel{
+    width: 10%;
+    height: 40px;
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 8px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+/* ..................................................... */
+
+.mov{
+    /* border: 3px solid white; */
+    height: 60vh;
+    width: 95%;
+    margin: auto;
+}
+
+#pic{
+    height: 400px;
+    justify-content: space-evenly;
+    margin: 7px;
+    border-radius: 8px;
+}
+
+#pic:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/* ..........................GAME......................... */
+
+.gh1{
+    /* border: 3px solid white; */
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.game{
+    border: 2px solid white;
+    height: 50vh;
+    color: white;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(0, 144, 163), rgb(126, 0, 0));
+}
+
+#ga{
+    margin-top: 120px;
+    margin-left: 120px;
+    background: transparent;
+}
+
+#ga1{
+    background: transparent;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+/* .........................REASON.......................... */
+
+.rh1{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.res{
+    /* border: 2px solid white; */
+    display: flex;
+    height: 30vh;
+    width: 97%;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+
+#re{
+    display: flex;
+    border: 2px solid white;
+    height: 30vh;
+    width: 24%;
+    margin: 10px;
+    border-radius: 5px;
+    /* align-items:center; */
+    /* background: linear-gradient(to bottom, rgb(162, 0, 255), rgb(78, 4, 4)); */
+}
+
+.r1{
+    background: linear-gradient(to right, rgb(20, 34, 34), rgb(197, 177, 0));
+}
+
+.r2{
+    background: linear-gradient(to right, rgb(3, 17, 17), rgb(226, 0, 177));
+}
+
+.r3{
+    background: linear-gradient(to right, rgb(255, 8, 0), rgb(0, 34, 128));
+}
+
+.r4{
+    background: linear-gradient(to right, rgb(19, 48, 48), rgb(0, 160, 0));
+}
+
+
+#ih{
+    margin-top: 17px;
+    background: transparent;   
+}
+
+/* .......................faq............................ */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid wheat; */
+    max-width: 90%;
+    margin:80px auto;
+    gap: 40px;
+    font-size: 25px;
+    align-items: center;
+}
+
+/* .container h1{
+    background-color: gray;
+}
+
+.container h2,p{
+    display: inline;
+    background: gray;
+} */
+
+.container .tab{
+    position: relative;
+    /* background: #272020; */
+    padding: 0 15px 20px;
+    box-shadow: 0 10px 25px rgb(243, 232, 232);
+    border-radius: 10px;
+    overflow: hidden;
+    /* border: 2px solid red; */
+}
+
+
+.container .tab input{
+    appearance: none;
+}
+
+.container .tab label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .tab label::after{
+    content: "+";
+    position: absolute; 
+    right: 40px;
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.26);
+    transition: transform 1s; 
+}
+
+.container .tab label::after:hover{
+    color: white;
+    font-size: 1.8em;
+    background-color:blue;
+}
+
+/* .........................em2............................. */
+
+.em2{
+    /* border: 2px solid white; */
+    height: 110px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+#em2{
+    margin-top: 20px;
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.b2{
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    width: 10%;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* .........................footer........................
+
+.fh2{
+    margin: 30px 70px ;
+}
+
+.footer{
+    display: block;
+    border: 3px solid white;
+    height: 70vh;
+    width: 90%;
+    margin:20px auto;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.footer a{
+    border: 2px solid red;
+    padding:0 106px 20px;
+    width: 200px;
+} */
